@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
 
   <body>
@@ -20,12 +21,12 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>London</h1>
+            <h1 id="city">London</h1>
 
             <div class="row">
               <ul>
-                <li>Monday 16:20</li>
-                <li>Overcast</li>
+                <li id="date">Monday 16:20</li>
+                <li id="description">Overcast</li>
               </ul>
             </div>
             <div class="row">
@@ -46,9 +47,8 @@
 
               <div class="col-6">
                 <ul>
-                  <li>Precipitation:5%</li>
-                  <li>Humidity:73%</li>
-                  <li>Wind 2km</li>
+                  <li>Humidity:<span id="humidity">82%</span></li>
+                  <li>Wind:<span id="wind">2km|H</span></li>
                 </ul>
               </div>
             </div>
