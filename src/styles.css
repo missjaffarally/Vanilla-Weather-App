@@ -37,6 +37,10 @@ li {
   padding: 0;
 }
 
+li :first-letter {
+  text-transform: capitalize;
+}
+
 .overview {
   margin-bottom: 20px;
 }

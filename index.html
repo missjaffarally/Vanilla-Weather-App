@@ -20,13 +20,31 @@
     <div class="cotntainer">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form class="search-form" id="search-form">
+            <div class="row-3">
+             <form class="searchform" id="search-form">
+                <input
+                  type="search" id= "search-box-input"
+                  placeholder="Search City or Postcode"
+                  auto  focus="on"
+                />
+                <input type="submit" value="Go" />
+              </form>
+              <input
+              type="submit"
+              value="📍 Current location"
+             id="current-location-btn"
+            />          
+            </div>
+          </form>
+      </form>
           <div class="overview">
-            <h1 id="city">London</h1>
+            <h1 id="city"></h1>
 
             <div class="row">
               <ul>
-                <li id="date">Monday 16:20</li>
-                <li id="description">Overcast</li>
+                <li>Last Updated:<span id="date"> </span></li>
+                <li id="description"></li>
               </ul>
             </div>
             <div class="row">
@@ -34,12 +52,13 @@
                 <div class="clearfix weather-temperature">
                   <img
                     src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-                    alt="Overcast"
+                   alt="Clear"
                     class="float-left"
+                    id="icon"
                   />
 
                   <div class="float-left">
-                    <strong>12</strong>
+                    <strong id="temperature"> 12 </strong>
                     <span class="units">°C|<a href="#">°F </a></span>
                   </div>
                 </div>
@@ -47,8 +66,8 @@
 
               <div class="col-6">
                 <ul>
-                  <li>Humidity:<span id="humidity">82%</span></li>
-                  <li>Wind:<span id="wind">2km|H</span></li>
+                  <li>Humidity<span id="humidity"> </span> %</li>
+                  <li>Wind:<span id="wind"></span> km|H</li>
                 </ul>
               </div>
             </div>
