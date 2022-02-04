@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #ace0f9;
+  background: #f3f3f3;
   line-height: 1.5;
 }
 
@@ -14,7 +14,7 @@ body {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background-color: white;
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 h1 {
@@ -56,7 +56,7 @@ li::first-letter {
 
 .weather-temperature strong {
   color: blue;
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 400;
 }
 
