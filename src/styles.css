@@ -1,6 +1,7 @@
-.body {
+body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(65, 154, 196);
+  background-color: rgb(196, 65, 65);
+  line-height: 1.5;
 }
 
 .weather-app-wrapper {
@@ -21,7 +22,6 @@ h1 {
   font-size: 24px;
   font-weight: 100;
   text-align: left;
-  line-height: 28px;
   margin-bottom: 0;
 }
 
@@ -35,7 +35,6 @@ li {
   color: rgb(135, 135, 135);
   font-size: 20px;
   font-weight: 100;
-  line-height: 19px;
   margin: 0;
   padding: 0;
   text-align: left;
@@ -59,7 +58,6 @@ li::first-letter {
   color: blue;
   font-size: 25px;
   font-weight: 400;
-  line-height: 5;
 }
 
 .weather-temperature .units {
